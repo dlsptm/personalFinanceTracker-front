@@ -1,9 +1,11 @@
 import './styles/App.css';
-import Header from './Header';
+import Header from './components/header/Header.js'
 
 function App() {
   return (
+    <>
     <Header name='Ines'/>
+    </>
   );
 }
 
